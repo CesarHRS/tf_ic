@@ -14,7 +14,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 class GustafsonKessel:
-    def __init__(self, n_clusters, m=2, max_iter=100, error=1e-5, seed=42):
+    def __init__(self, n_clusters, m=2, max_iter=20, error=1e-5, seed=42):
         self.n_clusters = n_clusters
         self.m = m
         self.max_iter = max_iter
